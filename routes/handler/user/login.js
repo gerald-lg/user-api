@@ -1,6 +1,6 @@
 const { User } = require("../../../models");
 const bcrypt = require("bcryptjs");
-const { restart } = require("nodemon");
+// const { restart } = require("nodemon");
 
 module.exports = async (req, res) => {
     const { email, password } = req.body;
